@@ -4,7 +4,9 @@
 
 @section('content')
 
-    <h1>Hello from Quebec !</h1>
+    <img src="/images/Flag_of_France.svg.png" alt="France flag">
+
+    <h1>Hello from France !</h1>
 
     <p>It's currently {{ date('h:i A') }}.</p>
 

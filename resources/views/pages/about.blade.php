@@ -8,6 +8,8 @@
 
 @section('content')
 
+    <img src="/images/me.jpeg" alt="Jimmy image">
+
     <p>Built with &hearts; by Jimmy MARTIN</p>
 
     <p><a href="{{ route('app_home') }}">Revenenir à la page d'accueil</a></p>
