@@ -1,9 +1,15 @@
 @extends('app')
 
+{{-- un commentaire avec blade --}}
+{{-- Si le contenu est simple, on peut procéder comme ceci --}}
+@section('title', 'About Us | Hello City')
+
+
 @section('content')
 
     <p>Built with &hearts; by Jimmy MARTIN</p>
 
     <p><a href="/">Revenenir à la page d'accueil</a></p>
-    
-@endsection
+
+@stop
+{{-- On peut aussi utiliser @stop pour marquer la fin d'une section --}}
