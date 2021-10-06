@@ -1,5 +1,8 @@
 <?php
 
+// On a importé la façade Route, mais on aurait pu ne pas le faire car dans config/app.php
+// on retrouves un alias Route qui correspond à la bonne façade
+// Cependant, les IDE ont parfois du mal par la suite à retrouver le bon namespace
 use Illuminate\Support\Facades\Route;
 
 // On peut aussi ne pas mettre le '/' devant le nom de la route
