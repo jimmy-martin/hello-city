@@ -3,7 +3,7 @@
 {{-- un commentaire avec blade --}}
 {{-- Si le contenu est simple, on peut procéder comme ceci --}}
 
-@section('title', 'About Us | ' . env('APP_NAME'))
+@section('title', 'About Us | ' . config('app.name'))
 
 
 @section('content')
