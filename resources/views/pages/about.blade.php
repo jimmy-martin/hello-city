@@ -2,7 +2,8 @@
 
 {{-- un commentaire avec blade --}}
 {{-- Si le contenu est simple, on peut procéder comme ceci --}}
-@section('title', 'About Us | Hello City')
+
+@section('title', 'About Us | ' . env('APP_NAME'))
 
 
 @section('content')
