@@ -8,6 +8,8 @@
 
     <h1 class="mt-5 text-3xl sm:text-5xl font-semibold text-indigo-600">Hello from France !</h1>
 
-    <p class="text-lg text-gray-800">It's currently {{ date('h:i A') }}.</p>
+    <p class="text-lg text-gray-800">
+        Nous sommes le {{ date('d/m/Y') }} et vous avez ouvert cette page à {{ date('H') }} heures et {{ date('i') }} minutes.
+    </p>
 
 @endsection

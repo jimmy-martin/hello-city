@@ -2,6 +2,6 @@
 
 ## Hello City
 
-Projet permettant de découvrir le framework Laravel au travers d'une application affichant le drapeau du pays dans lequel vous résidez avec un message de bienvenue.
+Projet permettant de découvrir le framework Laravel au travers d'une application affichant le drapeau de la France avec un message de bienvenue, ainsi que la date et l'heure à laquelle vous avez visité le site
 
 This is a Laravel application that displays the current time in your city.
