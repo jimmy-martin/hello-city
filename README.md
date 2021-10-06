@@ -7,6 +7,8 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
-## hello-city
+## Hello City
 
-Projet  permettant de découvrir le framework Laravel au travers d'une application affichant le drapeau du pays dans lequel vous résidez avec un message de bienvenue.
+Projet permettant de découvrir le framework Laravel au travers d'une application affichant le drapeau du pays dans lequel vous résidez avec un message de bienvenue.
+
+This is a Laravel application that displays the current time in your city.
