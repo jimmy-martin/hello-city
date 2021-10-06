@@ -9,11 +9,13 @@
 @section('content')
 
     {{-- On n'est pas obligé de rajouter le '/' avant le chemin des assets --}}
-    <img src="{{ asset('images/me.jpeg') }}" alt="Jimmy image">
+    <img class="my-12 rounded-full shadow-xl" src="{{ asset('images/me.jpeg') }}" alt="Jimmy image">
 
-    <p>Built with &hearts; by Jimmy MARTIN</p>
+    <h2 class="mb-5 text-gray-700">
+        Built with <span class="text-red-600">&hearts;</span> by Jimmy MARTIN
+    </h2>
 
-    <p><a href="{{ route('app_home') }}">Revenenir à la page d'accueil</a></p>
+    <p><a class="text-indigo-500 hover:text-indigo-600 underline" href="{{ route('app_home') }}">Revenir à la page d'accueil</a></p>
 
 @stop
 {{-- On peut aussi utiliser @stop pour marquer la fin d'une section --}}
