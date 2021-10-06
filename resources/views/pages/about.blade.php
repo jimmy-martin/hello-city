@@ -16,10 +16,7 @@
 
     <footer>
         <p>
-            &copy; Copyright {{ date('Y') }} &middot;
-            <a href="#">
-                About US
-            </a>
+            &copy; Copyright {{ date('Y') }}
         </p>
     </footer>
 </body>
