@@ -10,7 +10,7 @@
 
     <p>Built with &hearts; by Jimmy MARTIN</p>
 
-    <p><a href="/">Revenenir à la page d'accueil</a></p>
+    <p><a href="{{ route('app_home') }}">Revenenir à la page d'accueil</a></p>
 
 @stop
 {{-- On peut aussi utiliser @stop pour marquer la fin d'une section --}}
