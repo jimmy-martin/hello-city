@@ -8,7 +8,8 @@
 
 @section('content')
 
-    <img src="/images/me.jpeg" alt="Jimmy image">
+    {{-- On n'est pas obligé de rajouter le '/' avant le chemin des assets --}}
+    <img src="{{ asset('images/me.jpeg') }}" alt="Jimmy image">
 
     <p>Built with &hearts; by Jimmy MARTIN</p>
 
